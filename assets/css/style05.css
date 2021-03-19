@@ -50,21 +50,22 @@
 .recentM .recent-title .rt-tit {color:#908F94; font-size: 15px; font-weight: 300;}
 
 /* nextM */
+.nextM {}
 .nextM h2 {font-size: 20px; font-weight: bold; margin-bottom: 12px; margin-top: 16px; padding-top: 20px; border-top: 1px solid #EBEBEB;}
 .nextM .next {display: flex; margin-bottom: 16px; position: relative;}
 .nextM .next:after {
     content: '';
-    position: absolute; right: 0; bottom: -8px;
+    position: absolute; right:0; bottom: -8px;
     width: calc(100% - 114px);
-    height: 1px; 
-    background: #ebebeb;
+    height: 1px;
+    background-color: #ebebeb;
 }
-.nextM .next .next-img {width: 102px; margin-right: 12px; }
+.nextM .next .next-img {width: 102px; margin-right: 12px;}
 .nextM .next .next-tit {display: flex; flex-direction: column; justify-content: center;}
-.nextM .next .next-tit .nt-stit {color: #da5e7c; font-size: 12px;}
+.nextM .next .next-tit .nt-stit {color: #DA5E7C; font-size: 12px;}
 .nextM .next .next-tit .nt-tit {font-size: 16px;}
 .nextM .next .next-tit .nt-desc {
-    font-size: 13px; color: #a1a1a1; font-weight: 300;
+    font-size: 13px; color: #A1A1A1; font-weight: 300;
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
